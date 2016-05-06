@@ -1,0 +1,21 @@
+{
+  "name": "react-perf-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "performance"
+  ],
+  "author": "wuct",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.8.0",
+    "enzyme": "^2.2.0",
+    "react": "^15.0.2",
+    "react-addons-perf": "^15.0.2"
+  }
+}
