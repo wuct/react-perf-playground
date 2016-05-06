@@ -1,5 +1,4 @@
 import './setup'
-import 'console.table'
 import inspect from 'object-inspect'
 import React from 'react'
 import Perf from 'react-addons-perf'

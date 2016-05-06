@@ -1,5 +1,5 @@
 // copy from https://github.com/airbnb/enzyme/blob/master/docs/guides/jsdom.md
-
+require('console.table')
 var jsdom = require('jsdom').jsdom;
 
 var exposedProperties = ['window', 'navigator', 'document'];
