@@ -1,10 +1,15 @@
 {
   "name": "react-perf-playground",
   "version": "1.0.0",
-  "description": "",
+  "description": "Play with `react-addons-perf` on NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuct/react-perf-playground.git"
   },
   "keywords": [
     "react",
