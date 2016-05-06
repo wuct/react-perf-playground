@@ -1,12 +1,17 @@
+import './setup'
 import 'console.table'
+import inspect from 'object-inspect'
 import React from 'react'
 import Perf from 'react-addons-perf'
-import { shallow } from 'enzyme'
+import { mount } from 'enzyme'
 
 Perf.start()
 
-shallow(<div />)
+const wrapper = mount(<div />)
+
+wrapper.setProps({ a: 1 })
 
 Perf.stop()
+Perf.printInclusive()
+Perf.printExclusive()
 Perf.printWasted()
-Perf.getLastMeasurements()

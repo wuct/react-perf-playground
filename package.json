@@ -19,6 +19,8 @@
     "babel-preset-stage-0": "^6.5.0",
     "console.table": "^0.4.0",
     "enzyme": "^2.2.0",
+    "jsdom": "^8.5.0",
+    "object-inspect": "^1.2.1",
     "react": "^15.0.2",
     "react-addons-perf": "^15.0.2",
     "react-addons-test-utils": "^15.0.2",
